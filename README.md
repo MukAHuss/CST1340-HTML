@@ -3,7 +3,7 @@
 
 This repository is created for the convenience of collaboration and smooth project development.
 
-The assignment is worth 35% of the overall grade and the submission date is Week 12, Friday, 23:59 April 11, 2025 
+The assignment is worth 35% of the overall grade, and the submission date is Week 12, Friday, 23:59, April 11, 2025 
 
 ## Contents 
 1 What do you have to submit
@@ -18,39 +18,39 @@ _CST1340, COURSEWORK, SPRING 2025_
 
 This coursework requires two files submitted to the coursework submission link on My Learning: 
 1. A report document from your group. 
-2. . A ZIP archive of all your HTML and XML files.
+2. A ZIP archive of all your HTML and XML files.
 
 These files must be submitted by the deadline: 
     ### Week 12, Friday, 23:59 April 11, 2025 
 
-You can use a template to create your report (provided on My Learning). Your report must specify what was the contribution of each group member. In addition, each group will be expected to demonstrate their website during the lab sessions in Week 12. All group members MUST be present. 
+You can use a template to create your report (provided on My Learning). Your report must specify the contribution of each group member. In addition, each group will be expected to demonstrate their website during the lab sessions in Week 12. All group members MUST be present. 
 
 ## 2 What do you need to do 
 
-This coursework should be completed in groups of maximum 4 (four) students. Find yourself a group and make sure you find a time and place to meet and discuss/complete work every week. 
-The overall aim of this coursework is to design and develop a 2-page web site for a bookshop (or a music records shopt if you prefer). The main objectives are:
+This coursework should be completed in groups of a maximum of 4 (four) students. Find yourself a group and make sure you find a time and place to meet and discuss/complete work every week. 
+The overall aim of this coursework is to design and develop a 2-page website for a bookshop (or a music record shop if you prefer). The main objectives are:
 - Create an HTML page for the website 
 - Demonstrate knowledge of CSS via implementation 
 - Create an XML page 
 - Demonstrate knowledge of DTD via implementation 
 - Design a website that renders data from the XML file (transformation) 
 
-You should use a text editor to create the website (i.e. NotePad, Emacs, VI, etc). Do not use dedicated Web design tools or environments for this coursework.
+You should use a text editor to create the website (i.e., Notepad, Emacs, VI, etc). Do not use dedicated Web design tools or environments for this coursework.
 -  The website must contain 2 pages: a main page and a program page. 
--  The main page should be an HTML file. It should contain general information about the bookshop, such as the address, the contact detail and the opening times of the bookshop.
--  The main page should contain at least one paragraph, one list and one table. For example, you can include a brief introduction of the bookshop in a paragraph, include the main genres in a list and the opening time in a table.
+-  The main page should be an HTML file. It should contain general information about the bookshop, such as the address, the contact details, and the opening times of the bookshop.
+-  The main page should contain at least one paragraph, one list and one table. For example, you can include a brief introduction of the bookshop in a paragraph, include the main genres in a list and the opening times in a table.
 -  Feel free to apply different formatting and styling to improve the presentation of the web page (TIP: consider using CSS).
 -  The program page should be an XML file. The XML file should store information about the books sold following an XML data schema (TIP: consider using DTD).
--  Ideally, when the page is clicked open, the book list should be displayed in a table format (TIP: consider using XSL).
+-  Ideally, when the page is opened, the book list should be displayed in a table format (TIP: consider using XSL).
 -  Both the main page and the program page should contain a link to each other (TIP: consider using the <a> tag).
 
 ---
 
 ## Team Members:
-- **Mukhtar Ali Hussain** | M00851824
-- **Eshaal Umair Lodhi** | M00914205
-- **Shannen Leron Dsouza** | M00984925
-- **Koushik Nikil Kamalakannan** | M01031088
+- **Mukhtar Ali Hussain** | M00XXXXX
+- **Eshaal Umair Lodhi** | M00XXXXXX
+- **Shannen Leron Dsouza** | M00XXXXXX
+- **Koushik Nikil Kamalakannan** | M0XXXXXXX
 
 ## Tutor:
 - **Dr. Sumitra Kotipalli**
@@ -92,11 +92,11 @@ This section should include:
 - Annotated screenshots of the XSL/T file that transforms the XML data into an XHTML file.
   - Points will be awarded for correct use of XSL/T commands.
  
-**Navigation**: With every page, a button to return to the home page is a must! Wven when displaying XML content.
+**Navigation**: With every page, a button to return to the home page is a must! Even when displaying XML content.
 
-- XLM Content MUST BE IN A TABLE or we lose marks.
+- XLM Content MUST BE IN A TABLE, or we lose marks.
   
-**Display**: Screen flexability should be scalable and work on most resolutions (Android use is optional).
+**Display**: Screen flexibility should be scalable and work on most resolutions (Android use is optional).
 
 
 > **Note**: These requirements are **mandatory** to achieve a high grade. Active participation from everyone is essential for a balanced contribution to the project.
@@ -165,7 +165,7 @@ This is the initial plan, and suggestions from team members will be considered t
 To clone the repository, open a terminal or command prompt and run:
 
 ```bash
-git clone https://github.com/DLCContent/CST1340-HTML.git
+git clone https://github.com/MukAHuss/CST1340-HTML.git
 
 ```
 
@@ -176,3 +176,20 @@ cd CST1340-HTML
 ```bash
 git pull origin main
 ```
+
+## How to run the website locally 
+
+Since this file contains XML content styled using XSL, most modern browsers cannot view those pages. You will have to run the website in a browser that supports XML preview, such as Microsoft Edge or Firefox. If that still does not work, you can use Python to start a local server. 
+
+In the command prompt terminal, cd into the directory of the website and use the following command:
+
+```bash
+python -m http.server 8000
+```
+
+You can change the port to whatever port is available on your system; 8000 is a common port most systems have already open.
+
+After you start the server, use the following address to view the webpage on the local server: http.localhost:8000/index-m.html
+
+
+DISCLAIMER:: This is simply a university project and has no affiliation with the real Klementinum library in the Czech Republic, Prague. 
