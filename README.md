@@ -12,6 +12,8 @@ The assignment is worth 35% of the overall grade, and the submission date is Wee
 
 3 Assessment Criteria                          
 
+Main website found in "The Klementinum" Folder. 
+
 _CST1340, COURSEWORK, SPRING 2025_
 
 ## 1 What do you have to submit  
